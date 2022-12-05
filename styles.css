@@ -1,0 +1,703 @@
+body{
+    margin: 0px;
+    padding:0px
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height:60px;
+    margin: 0px;       
+}
+
+.logo{
+  
+    width: 15%;
+    font-size: 15px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    width:85%;
+    font-size: 15px;
+    padding-right:30px;
+}
+.nav-links{
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.nav-links > button {
+    width:80px;
+    height: 30px;
+    background-color: white;
+    border: white;
+    cursor: pointer;
+}
+
+.nav-links > button a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links > button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links > button:hover {
+    width:80px;
+    height: 30px;
+    background-color: palevioletred;
+    color: white;
+    border: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.links > button {
+    width:12%;
+    height: 60%;
+    background-color: white;
+    border: 0.5px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+.links > button:hover{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#header-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-image-text {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: -50%, -50%;
+}
+
+.header-image-text p{
+    font-size: 30px;
+    font-weight: bold;
+}
+ .header-image-text p > span{
+    color: purple;
+} 
+
+.head-container{
+    position: relative;
+    width: 100%;
+    height:500px;
+}
+#header-img > img{
+    width:100%;
+    height:500px;
+   
+}
+
+.check-card {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top:92%;
+    left:150px;
+    width:80%;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+
+.check-card-2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #d3d3d3;
+   
+}
+
+.vl {
+    border-left:3px solid grey;
+    height:30px;
+
+}
+
+.check-card button {
+    width:20%;
+    height: 60%;
+    margin-top: 10px ;
+    background-color: white;
+    border: 0.5px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check-card button:hover {
+    width:20%;
+    height: 60%;
+    margin-top: 10px ;
+    background-color: palevioletred;
+    border: 0.5px solid palevioletred;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check-card-2  button{
+    width:20%;
+    height: 60%;
+    margin-top: 10px ;
+    background-color: white;
+    border: 0.5px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+.check-card-2 > button:hover
+    {
+        width:20%;
+        height: 60%;
+        margin-top: 10px ;
+        background-color: palevioletred;
+        border: 0.5px solid palevioletred;
+        color:white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 13%;
+    
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border: white;
+    background-color: white ;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.about-text, .about-image{
+ 
+    margin-top: 30px;
+   
+}
+.about-image img{
+    border-radius: 10px;
+     
+}
+
+.about-text > button{
+    width:50%;
+    height: 10%;
+    margin-top: 10px ;
+    background-color: white;
+    border: 0.5px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about-text > button:hover {
+    width:50%;
+    height: 10%;
+    margin-top: 10px ;
+    background-color: palevioletred;
+    border: 0.5px solid palevioletred;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#us{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#hr{
+    margin-top:28px;
+    margin-left: 5px;
+    border-top:2px solid palevioletred;
+    width: 50px;
+}
+
+.rest{
+    margin: 40px 0px 60px 0px;
+    padding-left: 200px;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 220px;
+    height: 50px;
+    width:150px;
+    
+}
+
+.room-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.room-cards{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5px;
+}
+
+.room-cards:hover{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #d3d3d3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.room-image{
+    height: 50%;
+    width:100%;
+  
+}
+.room-image > img {
+    height: 100%;
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid transparent;
+    outline: 2px solid palevioletred;
+}
+
+.room-icons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100px;
+    top:41%;
+    left:65%;
+   
+}
+
+.room-icons-container{
+    height: 32px;
+    width:32px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+
+}
+
+.room-card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.room-card-text button{
+    width:90px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: palevioletred;
+    border: 0.5px solid palevioletred;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.room-card-text button:hover{
+    width:90px;
+    height:35px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.slidershow{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    top: 320%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+  }
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: #fff;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+
+.our-services {
+    margin-left: 45px;
+    margin-top: 50px;
+   
+}
+
+
+.food-menu{
+    margin-top: 45%;
+}
+.food-menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 150px;
+ 
+    
+}
+
+.food-menu-card{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    border-radius: 10px;
+    height: 500px;
+    
+}
+.food-menu-card:hover{
+    box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+
+
+.food-image{
+    height: 50%;
+    width: 100%;
+   
+}
+
+.food-image > img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: 1px solid palevioletred;
+}
+
+.food-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width:100%;
+    padding: 10px;
+    
+  
+}
+.food-text > p{
+    width:85%;
+}
+
+.food-text > button{
+    width:90px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: palevioletred;
+    border: 0.5px solid palevioletred;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.food-text button:hover{
+    width:90px;
+    height:35px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #d3d3d3;
+    margin-bottom: 50px;
+}
+
+#address #quick-links #our-services #contact-us {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#address > h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+#address > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+#quick-links > h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+#quick-links > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+
+#our-services > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+#our-services > h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+#contact-us > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+
+#contact-us > h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#types{
+    margin:100px 0px 0px 130px;
+}
+
+.room-types-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 80%;
+    height: 250px;
+    border: 0.5px solid #d3d3d3;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+.room-types-container:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 80%;
+    height: 250px;
+    border: 0.5px solid #d3d3d3;
+    box-shadow: 1px 1px 2px 2px #d3d3d3;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    cursor: pointer;
+
+}
+
+.room-types-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    
+}
+.room-types-img img{
+    width:90%;
+    height: 90%;
+    
+}
+
+.room-types-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55%;
+    height: 90%;
+    font-size: 18px;
+}
+
+.types-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 40%;
+    height: 15px;
+}
+
+.vl-2 {
+    border-left:1.5px solid black;
+    height:20px;
+
+}
+
+#bottom-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin: 70px 0px 90px 0px;
+    
+}
+
+#bottom-button > button {
+    width:10%;
+    height: 100%;
+    background-color: white;
+    border: 0.5px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+#bottom-button > button:hover{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-item:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.logo-item-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
